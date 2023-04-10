@@ -39,8 +39,16 @@ button{
     padding: 0.5rem;
     margin-top: 1rem;
     border-radius: 6px;
+    
+}
+
+button p{
+    font-weight: 300;
+    font-size: 1rem;
 }
 
 #age{
-    padding-right: 1rem;
+    padding-right: 1.5rem;
+    color:darkblue ;
+    font-weight: 900;
 }
