@@ -46,6 +46,10 @@ function age() {
     } else {
         alert ("Congratulations! You are eligible")
     }
+    
+    if (birthdate > 31) {
+        alert(Enter valid date)
+    }
 
     document.getElementById("age").innerHTML = `You are ${yearAge} years, ${monthAge} months and ${dateAge} days old.`
     
